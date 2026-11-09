@@ -1,0 +1,18 @@
+{
+  "//": "Claude Desktop config. Merge this into the existing mcpServers object in",
+  "//1": "  Windows: %APPDATA%\\Claude\\claude_desktop_config.json",
+  "//2": "  macOS:   ~/Library/Application Support/Claude/claude_desktop_config.json",
+  "//3": "Then fully quit and reopen Claude Desktop. Remove EVENKEEL_BACKUP to use the bundled sample.",
+  "mcpServers": {
+    "evenkeel": {
+      "command": "node",
+      "args": [
+        "C:\\Users\\Baris.Boyukbas\\source\\nopes\\evenkeel-mcp\\node_modules\\tsx\\dist\\cli.mjs",
+        "C:\\Users\\Baris.Boyukbas\\source\\nopes\\evenkeel-mcp\\src\\server.ts"
+      ],
+      "env": {
+        "EVENKEEL_BACKUP": "C:\\Users\\Baris.Boyukbas\\Downloads\\evenkeel-backup.json"
+      }
+    }
+  }
+}

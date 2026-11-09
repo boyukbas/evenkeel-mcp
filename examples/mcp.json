@@ -1,0 +1,14 @@
+{
+  "//": "Claude Code project config. Save as `.mcp.json` in a project root, or run:",
+  "//1": "  claude mcp add evenkeel -- node \"C:\\Users\\Baris.Boyukbas\\source\\nopes\\evenkeel-mcp\\node_modules\\tsx\\dist\\cli.mjs\" \"C:\\Users\\Baris.Boyukbas\\source\\nopes\\evenkeel-mcp\\src\\server.ts\"",
+  "//2": "Inspect/verify tools in a session with the /mcp command. Same shape works for Cursor, Windsurf, etc.",
+  "mcpServers": {
+    "evenkeel": {
+      "command": "node",
+      "args": [
+        "C:\\Users\\Baris.Boyukbas\\source\\nopes\\evenkeel-mcp\\node_modules\\tsx\\dist\\cli.mjs",
+        "C:\\Users\\Baris.Boyukbas\\source\\nopes\\evenkeel-mcp\\src\\server.ts"
+      ]
+    }
+  }
+}
